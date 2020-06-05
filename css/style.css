@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.citta {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.uno{
+    background-image: url('../img/roma.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.due{
+    background-image: url('../img/parigi.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.tre{
+    background-image: url('../img/praga.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.quattro{
+    background-image: url('../img/londra.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nome{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    color: black;
+    font-size: 50px;
+    text-shadow: 3px 3px 2px #ffffff;
+}
